@@ -12,7 +12,7 @@ program pi_mpi
     call MPI_Comm_rank(MPI_COMM_WORLD, rank, ierr)
     call MPI_Comm_size(MPI_COMM_WORLD, size, ierr)
   
-    tol = 1.0d-15
+    tol = 1.0d-8
     count = 0
     n_local = 0
   
