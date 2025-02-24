@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -N pi_mpi_job
 #$ -cwd
-#$ -pe orte 4
+#$ -pe orte 8
 #$ -q AMCS
 #$ -l h_rt=00:10:00
 #$ -o pi_mpi_output.txt
