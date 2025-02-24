@@ -2,7 +2,7 @@ program pi_mpi
     use mpi
     implicit none
     integer :: ierr, rank, size, i, count, global_count, n_local, n_total
-    integer, parameter :: block_iter = 10000000
+    integer, parameter :: block_iter = 500000000
     real(8) :: x, y, pi, tol, error
     real(8) :: start_time, end_time, total_time
     integer, allocatable :: seed_vals(:)
