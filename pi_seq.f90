@@ -6,7 +6,7 @@ program pi_seq
     real(8) :: start_time, end_time, total_time
   
     ! Desired tolerance (accuracy) for the π approximation
-    tol = 1.0d-3
+    tol = 1.0d-15
   
     count = 0
     n = 0
